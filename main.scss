@@ -1,0 +1,45 @@
+@import 'colors';
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	text-transform: uppercase;
+	a,
+	i {
+		color: white;
+	}
+	a:hover {
+		color: $yellow;
+	}
+}
+
+header {
+	.hero-img {
+		height: 100vh;
+		background-image: url('../img/gradient.jpg');
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.hero-logo {
+		height: 100vh;
+		background-image: url('../img/logo.png');
+	}
+	.hero-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		color: $yellow;
+	}
+}

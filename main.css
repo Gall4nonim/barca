@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-transform: uppercase;
+}
+nav a,
+nav i {
+  color: white;
+}
+nav a:hover {
+  color: #edbb1f;
+}
+
+header .hero-img {
+  height: 100vh;
+  background-image: url("../img/gradient.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header .hero-logo {
+  height: 100vh;
+  background-image: url("../img/logo.png");
+}
+header .hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #edbb1f;
+}/*# sourceMappingURL=main.css.map */
